@@ -112,8 +112,9 @@ Client Machine Requirements:
 
 ### UEFI Setup
 Access the client machines's UEFI setup and ensure the following:
-1. PXE-boot is enabled and
+1. PXE-boot is enabled.
 2. PXE-boot is set as the first entry in the boot order list.
+3. Secure Boot is disabled.
 
 ### Start-Up
 Start your machine, it should automaticly boot via network. 
