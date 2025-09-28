@@ -1,0 +1,13 @@
+debian/.build/
+debian/binary.modified_timestamps
+debian/binary/
+debian/cache/
+debian/chroot.files
+debian/chroot.packages.install
+debian/chroot.packages.live
+debian/chroot/
+debian/live-image-amd64.contents
+debian/live-image-amd64.files
+debian/live-image-amd64.packages
+debian/tftpboot/
+
