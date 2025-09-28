@@ -11,5 +11,5 @@ debian/live-image-amd64.files
 debian/live-image-amd64.packages
 debian/tftpboot/
 
-debian/config/include.chroot/usr/lib/x86_64-linux-gnu/libdvdcss.*
+debian/config/includes.chroot/usr/lib/x86_64-linux-gnu/libdvdcss.*
 
