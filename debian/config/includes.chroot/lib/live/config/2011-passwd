@@ -1,0 +1,6 @@
+#!/bin/sh
+
+echo
+echo "live-config hook: passwd"
+
+passwd -d lehrer

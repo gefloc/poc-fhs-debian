@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "delete apt cache"
+rm -r /var/cache/apt

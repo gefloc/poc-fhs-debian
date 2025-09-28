@@ -1,0 +1,18 @@
+menu title Boot menu
+menu tabmsg Waehle einen Eintrag mit den Pfeiltasten aus und druecke die Enter-Taste
+prompt 0
+timeout 100
+
+label deblive64
+    menu label Debian Live
+    menu default
+    kernel live/vmlinuz
+    append initrd=live/initrd.img ip=dhcp netboot=nfs root=/dev/nfs nfsroot=192.168.178.10:/var/netboot nfsrootdebug boot=live components hostname=DebianLive username=lehrer locales="de_DE.UTF-8" timezone=Europe/Berlin keyboard-layouts=de hooks=filesystem noroot
+
+
+label bootlocal
+    menu label Windows (lokal installiert)
+    localboot 0
+
+
+ui vesamenu.c32

@@ -1,0 +1,13 @@
+#!/bin/bash
+lb config noauto \
+    --distribution trixie \
+    --mirror-bootstrap http://deb.debian.org/debian \
+    --binary-image netboot \
+    --net-tarball false \
+    --archive-areas "main contrib non-free non-free-firmware" \
+    --apt-recommends true \
+    --apt-source-archives false \
+    --apt-indices false \
+    --debian-installer none \
+    "${@}"
+
