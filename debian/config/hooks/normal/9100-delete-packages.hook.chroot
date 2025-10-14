@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# exit on any error
+set -e
+
 apt -y purge konqueror firefox-esr akregator kdeconnect kmail goldendict-ng dragonplayer juk calamares ibus okular build-essential
 apt -y autopurge
 apt autoclean
