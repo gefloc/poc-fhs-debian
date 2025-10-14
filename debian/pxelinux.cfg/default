@@ -7,7 +7,7 @@ label deblive64
     menu label Debian Live
     menu default
     kernel live/vmlinuz
-    append initrd=live/initrd.img ip=dhcp netboot=nfs root=/dev/nfs nfsroot=192.168.178.10:/var/netboot nfsrootdebug boot=live components hostname=FHS-Debian username=lehrer user-fullname=Lehrer locales="de_DE.UTF-8" timezone=Europe/Berlin keyboard-layouts=de hooks=filesystem noroot
+    append initrd=live/initrd.img ip=dhcp netboot=nfs root=/dev/nfs nfsroot=192.168.178.10:/var/netboot nfsrootdebug boot=live components hostname=FHS-Debian username=lehrer user-fullname=Lehrer locales="de_DE.UTF-8" keyboard-layouts=de hooks=filesystem noroot
 
 
 label bootlocal
